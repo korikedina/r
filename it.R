@@ -2,7 +2,6 @@ it <- function(m){
 	ki_=rowSums(m)
 	k_j=colSums(m)
 	N=sum(m)
-	print(N)
 	r=nrow(m)
 	s=ncol(m)
 	my_chi_sq=0
